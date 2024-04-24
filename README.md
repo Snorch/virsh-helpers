@@ -24,3 +24,8 @@
 ```
 ./for-each-vm.sh ./edit-vm-config.sh VM 's/  <cputune>\n.*\n.*\n  <\/cputune>//'
 ```
+
+6. Restore VM config for all vms:
+```
+./for-each-vm.sh ./restore-vm-config.sh VM $DIR
+```
